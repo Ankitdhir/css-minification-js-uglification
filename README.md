@@ -3,7 +3,7 @@ Grunt sample configuration file for css minification and js uglification for any
 
 Very basic gruntfile with grunt-contrib-uglify grunt-contrib-concat grunt-contrib-cssmin packages, This project help you to create single css and and single js files for production environment. These scripts will run on node environment, please make sure you have installed nodejs from https://nodejs.org/ before using these scripts.
 
-These scripts are completely off-line, so it will help you combining your css and js code on iterative development. 
+These scripts are completely off-line, so it will help you combining your css and js code on iterative development. These script will works with any web application developed using any programming language (.net, ruby, python, perl, php, node, java, grovey, rails, spring, g++ etc.)
 
 css-minification-js-uglification is a compressor that allows you to compress and minify your all javascript files and create a single javascript file. Compressed javascript files are ideal for production environments since they typically reduce the size of the file by 30-90%. Most of the filesize reduction is achieved by removing comments and extra whitespace characters , renaming local variables that are not needed by web browsers or visitors.
 
