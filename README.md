@@ -29,7 +29,42 @@ Just copy these two files you your project edit gruntfile.js according to your f
 npm install
 grunt
 ```
-you will get minified version of css and javascript
+
+### Edit script for custom folder : 
+* Change below line for js
+```html
+files: { 'public/dist/combined.js': ['modules/**/*.js']
+```
+Description
+```html
+files: { '<destination minified file path>': [<comma separated list of js file in order you want to combine>]
+```
+Example
+```html
+files: { 'public/dist/combined.js': ['vendor/jquery.js','vendor/bootstrap.js','js/main.js']
+```
+* Change below line for combine path of css
+```html
+src: ['modules/**/*.css'],
+dest: 'public/dist/combined.css'
+```	
+Description
+```html
+src: [<comma separated list of css file in order you want to combine>],
+dest: '<destination minified file path>'
+```	
+Example
+```html
+src: ['a.css','b.css','bootstrap.css'],
+dest: 'public/dist/combined.css'
+```	
+* Change below line for min path of css	
+```html
+src: ['public/dist/combined.css'],
+dest: 'public/dist/combined.min.css'
+```	
+
+You will get minified version of css and javascript
 
 
 ### License
