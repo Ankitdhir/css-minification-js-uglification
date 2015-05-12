@@ -1,17 +1,19 @@
 # css-minification-js-uglification
 Grunt sample configuration file for css minification and js uglification for any project
 
-Very basic gruntfile with grunt-contrib-uglify grunt-contrib-concat grunt-contrib-cssmin packages
+Very basic gruntfile with grunt-contrib-uglify grunt-contrib-concat grunt-contrib-cssmin packages, This project help you to create single css and and single js files for production environment. These scripts will run on node environment, please make sure you have installed nodejs from https://nodejs.org/ before using these scripts.
+
+These scripts are completely off-line, so it will help you combining your css and js code on iterative development. 
 
 css-minification-js-uglification is a compressor that allows you to compress and minify your all javascript files and create a single javascript file. Compressed javascript files are ideal for production environments since they typically reduce the size of the file by 30-90%. Most of the filesize reduction is achieved by removing comments and extra whitespace characters , renaming local variables that are not needed by web browsers or visitors.
 
 ### Why Would I Want these scripts?
 There are a number of reasons why compressing your javascript files is a good idea:
 
-*Quicker download times for your users.
-*Reduced bandwidth consumption of your website.
-*Reduced number of HTTP requests on your server when combining many javascript files into one compressed file, thus reducing the server load and allowing more visitors to access your website.
-*Comments and whitespace are not needed for javascript execution; Removing them will reduce file size and speed up script execution times.
+* Quicker download times for your users.
+* Reduced bandwidth consumption of your website.
+* Reduced number of HTTP requests on your server when combining many javascript files into one compressed file, thus reducing the server load and allowing more visitors to access your website.
+* Comments and whitespace are not needed for javascript execution; Removing them will reduce file size and speed up script execution times.
 
 
 ### Why use CSS Minification?
